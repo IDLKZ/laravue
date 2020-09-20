@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">Example Component</div>
                     <p>{{count}}</p>
@@ -12,6 +12,7 @@
                     </div>
                     <input v-model="word">
                     <router-link to="/about">Go to User</router-link>
+                    <b-button variant="success">Button</b-button>
                 </div>
             </div>
         </div>
